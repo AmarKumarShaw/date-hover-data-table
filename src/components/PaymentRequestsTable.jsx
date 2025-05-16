@@ -61,7 +61,7 @@ const PaymentRequestsTable = ({ requests }) => {
               >
                 <td className="px-2 sm:px-6 py-3 sm:py-4 whitespace-nowrap">
                   <div className="h-5 relative">
-                    <div className={`text-xs sm:text-sm text-gray-700 absolute top-0 left-0 transform transition-opacity duration-300 ease-in-out ${
+                    <div className={`text-xs sm:text-sm text-gray-700 absolute top-0 left-0 transform transition-opacity duration-200 ease-in-out ${
                       isDateVisible ? 'opacity-100' : 'opacity-0'
                     }`}>
                       {formatDate(request.createdOn)}
